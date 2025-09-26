@@ -29,7 +29,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-green-800">
+              <a href="#service" className="hover:text-green-800">
                 Services
               </a>
             </li>

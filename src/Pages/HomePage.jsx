@@ -8,6 +8,7 @@ import featureOne from "../assets/images/features-1.svg";
 import featureTwo from "../assets/images/features-2.svg";
 import ScrollToTopButton from "../components/UI/ScrollToTopButton";
 import Modal from "../components/UI/Modal";
+import AboutSection from "../components/UI/AboutSection";
 export default function HomePage() {
   {
     return (
@@ -21,7 +22,7 @@ export default function HomePage() {
             />
             <ImageSection />
           </Section>
-          <Section sectionId="about">
+          <Section sectionId="service">
             <SectionHeading
               title="Addons"
               subtitle="Enhance your business capabilities with advanced features tailored to meet your needs."
@@ -38,6 +39,7 @@ export default function HomePage() {
               text="Manage multiple stores seamlessly under one centralized platform.Centralize inventory and sales across multiple locations.Efficiently manage orders and streamline operations.Improve customer experience with unified store management."
             ></ImageWithText>
           </Section>
+          <AboutSection />
           <ScrollToTopButton />
         </main>
       </>
